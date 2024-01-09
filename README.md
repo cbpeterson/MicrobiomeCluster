@@ -5,6 +5,13 @@
 - **Reference**: Shi Y, Zhang L, Peterson CB<sup>&ast;</sup>, Do K<sup>&ast;</sup>, Jenq RR<sup>&ast;</sup>. (2022) Performance determinants of unsupervised clustering methods for microbiome data. *Microbiome*. 10(25):1-12. <sup>&ast;</sup>Authors contributed equally
 - This package includes basic functions for calculating operational taxonomic unit (OTU) and cluster of related taxonomic units (CROTU) abundances. It also provides distance and levels of tree nodes and tips from its root. Researchers can use the MicrobiomeCluster package to manipulate an existing tree by trimming or growing branches, or check if a Beta metric is suitable for clustering a dataset.
 
+#### Installation:
+```
+library(devtools)
+install_github("YushuShi/MicrobiomeCluster")
+library(MicrobiomeCluster)
+```
+
 #### Key functions:
 
 - **combMetric**: compute the robust weighted combination of Bray-Curtix dissimilarity and unweighted Unifrac dissimilarity
